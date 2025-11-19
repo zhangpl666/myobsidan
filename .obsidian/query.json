@@ -1,0 +1,13 @@
+{
+  "queries": [
+    {
+      "createdAt": "2025/08/28 19:00:34",
+      "id": "202508281900340",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"LIST\",\"value\":{\"operator\":\"IS\",\"value\":\"TODO\"},\"relation\":\"AND\"}]",
+      "title": "test",
+      "updatedAt": "2025/08/28 19:00:34",
+      "userId": "Thino"
+    }
+  ]
+}
