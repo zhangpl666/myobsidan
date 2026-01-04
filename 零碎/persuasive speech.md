@@ -10,11 +10,12 @@ First, let’s explore why too much screen time leaves us distracted and unfocus
 
 ### Attention Fragmentation and Switching Costs
 
-Jumping between apps, videos, and messages fragments our attention. Research from the University of California shows that after switching tasks on screens, the brain takes **23 minutes or more** to refocus. This “switching cost” adds up daily, eroding our ability to engage deeply with any single task. The part of the brain responsible for focus becomes overwhelmed by constant digital distractions, leading to “attention fatigue” that lingers throughout the day.
+Jumping between apps, videos, and messages breaks our attention into small, scattered pieces. Research from the University of California shows that after switching tasks on screens, the brain takes **23 minutes or more** to get back to full focus. This “cost” of switching adds up every day, making it harder to dive deep into any single task. The part of our brain that handles focus gets overwhelmed by constant digital distractions, leading to “attention tiredness” that stays with us all day. 
+
 
 ### Structural Brain Changes
 
-Excessive screen time can even physically alter the brain. For example, studies show children with over 7 hours of daily screen time have thinner cortical regions linked to language and executive function. In adolescents and young adults, heavy smartphone use is associated with impaired attention and structural brain changes
+Excessive screen time can even physically alter the brain. For example, studies show children with over 7 hours of daily screen time have thinner brain areas linked to language and decision-making. In teens and young adults, spending a lot of time on smartphones is tied to worse attention spans and changes in how the brain is structured.
 
 ---
 
@@ -40,6 +41,6 @@ Reducing screen time is a practical way to boost focus, improve sleep quality, a
 
 ## Looking Ahead: The Power of Reclaiming Our Time
 
-Every time we put down our phones to listen to a friend, focus on a project, or simply be present in the moment, we’re building it. For ourselves, this means sharper focus, less stress, and more meaningful interactions. For our communities, it means stronger bonds, more empathy, and a culture that values human connection over digital noise.
+Every time we put down our phones to listen to a friend, focus on a project, or simply be present in the moment, we’re building something meaningful. For ourselves, this means sharper focus, less stress, and more meaningful interactions. For our communities, it means stronger bonds, more empathy, and a culture that values human connection over digital noise.
 
 As a Chinese proverb goes: **“The best time to plant a tree was 20 years ago. The second best time is now.”** Managing your screen time starts with small steps, but its impact ripples far—for your present happiness and your future well-being.

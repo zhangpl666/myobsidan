@@ -116,7 +116,7 @@
 	- delim：指向标识分隔符的以空字符结尾的字节字符串的指针
 - 返回值：返回指向下一个标记的第一个字符的指针，如果没有标记，则返回空指针
 - 问题：该函数只能记忆最近一次的切除地点，若有多个函数需要操作会出现错误
-一下cppconference提供的解决方案：
+以下cppconference提供的解决方案：
 `char* strtok_s( char* restrict str, rsize_t* restrict strmax, const char* restrict delim, char** restrict ptr )
 - 进阶版，需要传入一个地址用于记忆，不容易出错
 - 参数：
@@ -128,7 +128,7 @@
 然而实际在VS里，没有strmax这个输入，改为：`char* strtok_s(char* restrict str,const char* restrict delim, char** restrict ptr)`
 ---
 
-# 字符数组操作
+# 内存操作
 这些函数与第一个标题的区别：
 前面的只用于以`\0`结尾的字符串，这里的用于连续内存块，不仅限与字符串，二进制和结构体都可以。意味着mem不会因为\0停下来
 

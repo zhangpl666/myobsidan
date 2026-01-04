@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "734aadd2f21970a1",
+        "id": "08eb821bbce5ef96",
         "type": "tabs",
         "children": [
           {
-            "id": "19a209493a5fe82d",
+            "id": "2819d6964682b1d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/gitignore文件.md",
+                "file": "编程/python/生成元.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gitignore文件"
+              "title": "生成元"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "check",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/gitignore文件.md",
+                "file": "编程/python/python自定义函数初步.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gitignore文件"
+              "title": "Outline of python自定义函数初步"
             }
           },
           {
@@ -157,8 +157,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -183,54 +183,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "19a209493a5fe82d",
+  "active": "2819d6964682b1d1",
   "lastOpenFiles": [
-    "git/git常用命令.md",
-    "git/gitignore文件.md",
-    "git/Checkout命令.md",
-    "attachment/Pasted image 20251119182318.png",
-    "git/Git概述.md",
-    "git/零碎.md",
-    "git/Github.md",
-    "git/confusion.md",
-    "attachment/Pasted image 20251119175141.png",
-    "attachment/Pasted image 20251119174849.png",
-    "git/Windows上安装git.md",
-    "git/git的IDEA配置.md",
-    "CentOS/系统与网络信息.md",
-    "零碎/和弦.md",
-    "attachment/Pasted image 20251118232317.png",
-    "attachment/Pasted image 20251118232305.png",
-    "attachment/Pasted image 20251118232208.png",
-    "attachment/Pasted image 20251118232155.png",
-    "attachment/Pasted image 20251118230525.png",
-    "attachment/Pasted image 20251118230411.png",
-    "attachment/Pasted image 20251118230306.png",
-    "零碎/leetcode.md",
-    "零碎/投机分子活动阶段性总结.md",
-    "零碎/数学草稿？.md",
-    "常用网站.md",
-    "Test.md",
-    "零碎/persuasive speech.md",
-    "Excalidraw/Drawing 2025-11-18 19.59.48.excalidraw.md",
-    "inbox/Untitled.base",
-    "inbox/Untitled.md",
-    "inbox",
-    "Untitled 1.md",
-    "CentOS/bash.md",
-    "CentOS/CentOS软件管理.md",
-    "C语言学习/string.h.md",
-    "Vim/vim模式示意图.md",
-    "Vim/Vim.md",
-    "C语言学习/stdio.h.md",
-    "零碎",
-    "常用网站",
-    "Latex",
-    "git",
-    "Vim.html",
-    "~$Vim.pptx",
-    "Vim.pptx",
-    "~$Vim.docx",
+    "Latex/图片.md",
+    "编程/python/生成元.md",
+    "inbox/论文.md",
+    "编程/python/List 列表进阶.md",
+    "编程/python/迭代器.md",
+    "编程/python/Lambda.md",
+    "编程/python/错误处理.md",
+    "编程/python/python自定义函数初步.md",
+    "编程/python/导言.md",
+    "编程/python/（隐性）复杂数据类型.md",
+    "编程/C/C语言中的面向对象编程.md",
+    "编程/C/header/stdarg.h.md",
+    "脚本/Makefile/Makefile.md",
+    "编程/python",
+    "脚本/Makefile/A Makefile.md",
+    "脚本/Makefile/一个示例.md",
+    "脚本/Makefile/Linux中静态库、动态库的命令行链接.md",
+    "零碎/py dsaa plan.md",
+    "编程/C++/编译/静态与动态链接.md",
+    "脚本/Makefile",
+    "脚本",
+    "编程/C++/类型转换.md",
+    "编程/C++/STL/Iterator/迭代器统一接口函数.md",
+    "编程/C++/STL/Iterator/统一接口原理总结.md",
+    "编程/C++/STL/Iterator/Iterator是什么.md",
+    "编程/C++/STL/Iterator/Iterator分类.md",
+    "编程/C++/STL/Iterator/Iterator Operations.md",
+    "编程/C++/STL/Container/Vector.md",
+    "编程/C++/STL/Container/String.md",
+    "编程/C++/STL/Iterator",
+    "编程/C++/STL/Container",
+    "编程/C++/编译",
+    "编程/C++/单变量存储多类型数据",
+    "编程/C++/STL",
+    "编程/C++/class",
+    "编程/C/header",
+    "attachment/Pasted image 20251219235510.png",
+    "attachment/Pasted image 20251219235453.png",
+    "attachment/Pasted image 20251219235433.png",
+    "attachment/Pasted image 20251219235406.png",
+    "attachment/Pasted image 20251215234512.png",
+    "attachment/Pasted image 20251215233557.png",
+    "attachment/Pasted image 20251215233539.png",
+    "attachment/Pasted image 20251215233519.png",
+    "attachment/Pasted image 20251215233453.png",
+    "attachment/Pasted image 20251215233428.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "未命名.canvas",

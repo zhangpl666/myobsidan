@@ -161,7 +161,7 @@
 - base：要搜索的数组
 - nmumb：数组元素个数
 - size：元素大小
-- compar：函数指针 第一个参数是要找的 第二个是数组中的元素
+- compar：函数指针 第一个参数是要找的 第二个是数组中某个的元素
 
 2.**`void* qsort(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *))`**- 功能：快速排序（可排序任意类型数组，需自定义比较函数）。
 * `void* base`：要查找的数组，void* 是无类型指针

@@ -140,8 +140,8 @@ printf("%s\n",buf);
 	* 功能：计算时间戳差值
 	* 返回：以秒为单位的**double**值
 ```c
-time_t start = time*(NULl);
+time_t start = time(NULL);
 //等待一段时间
-time_t end =time(NUll);
+time_t end =time(NULL);
 double diff = difftime(end,start);
 ```

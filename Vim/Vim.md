@@ -1,7 +1,3 @@
-# Vim编辑器的三种工作模式
-[[Vim#Normal Mode|Normal Mode]]
-* Normal Mode下，所敲的按键编辑器都理解为命令，以命令驱动执行不同的功能
-* 此模式下，不能自由进行文本编辑
  Insert Mode
 * 也就是所谓的编辑模式，插入模式
 * 此模式下，可以对文本内容进行自由编辑
@@ -195,13 +191,23 @@ normal命令
 * 将range设置为%，可以对文件的所有行执行
 * `:[range] normal .`：配合`.`命令
 * command可以是宏记录的操作 `:[range] normal @{register}`
+```vim
+:1,10normal A;
+
+:%normal ^x
+
+```
 
 global命令
 格式：`:[range] global/{pattern}/[cmd]`
 含义：对range中包含pattern的所有行执行Ex命令
 	normal也是Ex命令，不给默认为打印
 	`:[range] global/{pattern}/normal{command}`
+```vim
+:g/^$/normal i-- 分隔线 -- 
 
+:g/^print/normal A;
+```
 ### 替换命令
 `:[range]s/{pattern}/{string}/[flags]`
 将pattern替换为string

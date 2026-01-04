@@ -10,5 +10,5 @@
   "newFileFolderPath": "inbox",
   "attachmentFolderPath": "attachment",
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": false
 }

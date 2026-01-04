@@ -89,62 +89,37 @@ git commit -m "移除已跟踪的忽略文件"
 下面是用于obsidian的.gitignore文件，复制进去就行了
 
 ```gitignore
-# ==============================================
-# Obsidian 自身生成的文件/目录（无需跟踪）
-# ==============================================
-# 缓存目录（存储索引、搜索缓存等）
-.obsidian/cache/
-# 临时文件（如自动保存的草稿）
-.obsidian/workspace-mobile.json
-.obsidian/workspace.json.bak
-.obsidian/*.tmp
-# 插件临时数据（部分插件会生成缓存）
-.obsidian/plugins/*/data/
-.obsidian/plugins/*/cache/
-# 本地设置（如窗口布局、折叠状态，仅本地有效）
-.obsidian/workspace.json
-.obsidian/appearance.json
-.obsidian/keyboard.json
-.obsidian/starred.json
+# 系统自动生成的文件
+.DS_Store          # Mac系统文件
+Thumbs.db          # Windows缩略图缓存
+*.lnk              # Windows快捷方式
 
-# ==============================================
-# 可能的敏感信息或本地配置
-# ==============================================
-# 隐私相关插件数据（如密码管理器、本地API密钥）
-.obsidian/plugins/privacy/
-# 本地附件缓存（如果使用云同步附件，可忽略）
-.obsidian/attachments/
-# 自定义CSS缓存（如果CSS源文件已跟踪，缓存无需提交）
-.obsidian/snippets/*.css.map
+# 编辑器/工具临时文件
+*~                 # 各种编辑器的备份文件（如Vim、VS Code）
+.*.swp             # Vim交换文件
+.*.swo             # Vim交换文件（二次保存）
+*.tmp              # 临时文件
+*.bak              # 备份文件
+*.cache            # 缓存文件
 
-# ==============================================
-# 通用编辑器/系统文件（避免跨平台干扰）
-# ==============================================
-# 操作系统临时文件
-.DS_Store          # macOS
-Thumbs.db          # Windows
-*.swp              # Vim 临时文件
-*.swo              # Vim 临时文件
-*~                 # 部分编辑器的备份文件
+# Obsidian自身生成的非必要文件
+.obsidian/workspace          # 工作区配置（包含本地窗口布局等）
+.obsidian/workspace.json     # 工作区JSON配置
+.obsidian/cache/             #  Obsidian缓存目录
+.obsidian/themes/            # 主题文件（如需同步主题可删除此行）
+.obsidian/snippets/          # CSS代码片段（如需同步可删除此行）
+.obsidian/app.json           # 应用配置（包含本地路径等）
+.obsidian/community-plugins.json  # 插件列表（插件文件已在plugins目录保留）
 
-# 编辑器配置（如果多人协作，建议忽略个人IDE配置）
-.idea/             # IntelliJ/IDEA
-.vscode/           # VS Code
-*.sublime-*        # Sublime Text
+# 只保留插件目录（忽略.obsidian下其他文件，但保留plugins）
+.obsidian/*                  # 先忽略.obsidian下所有内容
+!.obsidian/plugins/          # 但不忽略plugins目录
+!.obsidian/plugins/**/*      # 不忽略plugins目录下的所有文件和子目录
 
-# ==============================================
-# 可选：忽略特定类型的附件（根据需求调整）
-# ==============================================
-# 如果不需要跟踪大文件（如视频、大型压缩包）
-# *.mp4
-# *.zip
-# *.rar
-
-# ==============================================
-# 注意：以下文件通常需要保留，不要忽略！
-# ==============================================
-# .obsidian/config.json       # 核心配置（如仓库名称、默认视图）
-# .obsidian/plugins/          # 插件列表（确保多人协作时插件一致）
-# 所有 .md 笔记文件           # 核心内容，默认不忽略
-# 附件目录（如 attachments/）  # 若手动管理附件，需保留
+# 其他可能的非笔记文件（根据需要调整）
+*.exe
+*.dll
+*.zip
+*.rar
+*.7z
 ```
